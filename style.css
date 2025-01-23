@@ -1,0 +1,54 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Navigation Bar */
+  
+  #home {
+    background-color:  lightslategray;
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    height: 5mm;
+   }
+  
+  .topmenu {
+    color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    text-decoration:none;
+  }
+  
+  .topmenu:hover {
+    color: white;
+    /* Add the styles here */
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  
+  .topdiv {
+    float: right;
+    padding-right: 1cm;
+  }
+  
+  .profile_name {
+    float: left;
+    padding-left: 2cm;
+    /* Add the styles here */
+    color: white;
+    background-color: lightslategray;
+    font-size: 2em;
+  }
+  
+  .profile_name .contact_info {
+    font-size: 15px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
